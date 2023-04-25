@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+
+    </head>
+      
+      <header>
+          <a href="https://www.aluracursos.com/">
+          <img src="imagenes/Vector (1).png" alt="logo">
+        </a>
+      </header>
+
+
+      <body>
+          
+        <main>
+         
+          <div>
+          <textarea id="mensaje-original" rows="4" cols="50" placeholder="ingrese su texto a encriptar" class="textArea"></textarea>
+          </div>
+          
+          <div>
+            <p><img src="imagenes/Vector.png" alt="info">Solo letras mayusculas y sin acentos<p>
+          </div>
+
+        
+          <section >
+            <button onclick="encriptarMensaje()"class="encriptar">Encriptar</button>
+            <button onclick="desencriptarMensaje()"class="desencriptar">Desencriptar</button>
+          </section>
+          
+         </main>
+    
+          <div>
+            <textarea id="mensaje-resultante" rows="4" cols="50" class="textArea-resultante" placeholder="No se encuentran resultados" oninput="mostrarImagenPorDefecto()"></textarea>
+            
+          </div>
+          <button onclick="copiarMensaje()" class="botonCopiar">Copiar</button>
+          <footer>
+           Creado por<a href="https://www.linkedin.com/in/diego-orona/">Diego Orona</a>  
+          </footer>
+    
+    
+                    <script src="main.js"></script>
+       </body>
+</html>
