@@ -8,20 +8,15 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
-
     </head>
-      
       <header>
           <a href="https://www.aluracursos.com/">
           <img src="imagenes/LogoAlura.png" alt="logo">
         </a>
       </header>
-
-
-      <body>
+    <body>
           
         <main>
-         
           <div>
           <textarea id="mensaje-original" rows="4" cols="50" placeholder="ingrese su texto a encriptar" class="textArea"></textarea>
           </div>
@@ -29,31 +24,28 @@
           <div class="vectorInfo">
             <p><img src="imagenes/LogoSignoAdmiracion.png" alt="info">Solo letras mayusculas y sin acentos<p>
           </div>
-
         
           <section >
             <button onclick="encriptarMensaje()"class="encriptar">Encriptar</button>
             <button onclick="desencriptarMensaje()"class="desencriptar">Desencriptar</button>
           </section>
-          
          </main>
     
           <div>
             <textarea id="mensaje-resultante" rows="4" cols="50" class="textArea-resultante" placeholder="No se encuentran resultados" oninput="mostrarImagenPorDefecto()"></textarea>
-            
           </div>
+            
           <button onclick="copiarMensaje()" class="botonCopiar">Copiar</button>
           
           <footer>
             Creado por Diego Orona<a href="https://github.com/OronaDiego">
-             <img src="imagenes/github.png"alt="github" class="git">
+             <img src="github.png"alt="github" class="git">
            </a>
            <a href="https://www.linkedin.com/in/diego-orona/">
-             <img src="imagenes/linkedin.png"alt="linkedin" class="linke">
+             <img src="linkedin.png"alt="linkedin" class="linke">
            </a> 
            </footer>
     
-    
-                    <script src="main.js"></script>
-       </body>
+     <script src="main.js"></script>
+     </body>
 </html>
