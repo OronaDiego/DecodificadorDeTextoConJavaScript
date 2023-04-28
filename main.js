@@ -62,7 +62,7 @@ function encriptar(mensaje_original) {
 function mostrarImagenPorDefecto() {
   const mensajeResultanteElement = document.getElementById('mensaje-resultante');
   if (!mensajeResultanteElement.value) {
-    mensajeResultanteElement.style.backgroundImage = 'url(Imagenes/Muñeco.png)';
+    mensajeResultanteElement.style.backgroundImage = 'url(Muñeco.png)';
   } else {
     mensajeResultanteElement.style.backgroundImage = 'none';
   }
