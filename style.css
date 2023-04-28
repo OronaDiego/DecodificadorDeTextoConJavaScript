@@ -48,7 +48,7 @@ body {
 }
 main {
   padding-top: 128px;
-  height: 746px;
+  height: 485px;
   display: grid;
   grid-template-rows: 1fr min-content min-content;
 }
@@ -143,13 +143,13 @@ section{
   background-color: #9ab0cc;
 }
 .vectorInfo{
-  width: 205px;
+  width: 220px;
   height: 18px;
   left: 24px;
 
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 12px;
   line-height: 150%;
   color: #495057;
