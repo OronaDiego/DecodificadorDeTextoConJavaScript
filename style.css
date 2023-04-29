@@ -171,3 +171,59 @@ footer{
   width: 30px;
 }
 
+
+
+
+@media screen and (max-width:480px){
+
+header{position: absolute;
+  width: 375px;
+  height: 96px;
+  left: 0px;
+  top: 0px;
+}
+main{
+  height: 254px;
+}
+
+.textArea{
+  position: absolute;
+width: 343px;
+height: 210px;
+left: 16px;
+top: 152px;
+}
+
+.textArea-resultante{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px;
+gap: 32px;
+
+position: absolute;
+width: 327px;
+height: 186px;
+left: 24px;
+top: 660px;
+}
+.botonCopiar{
+  width: 255px;
+  height: 67px;
+  top: 952px;
+  left: 95px;
+
+}
+section{
+  display: table-column;
+  left: 52px;
+  width: 434;
+  top: 482px;
+}
+
+footer{
+  position: absolute;
+  width: 360px;
+  top: 1040px;
+}
+}
