@@ -174,23 +174,32 @@ footer{
 
 
 
-@media screen and (max-width:480px){
+@media screen and (max-width:600px){
+
+html{
+  position: relative;
+width: 375px;
+height: 933px;
+}
 
 header{position: absolute;
   width: 375px;
   height: 96px;
-  left: 0px;
-  top: 0px;
+  left: 206px;
+  top: 32px;
 }
 main{
   height: 254px;
+}
+body{
+  left: 64px;
 }
 
 .textArea{
   position: absolute;
 width: 343px;
 height: 210px;
-left: 16px;
+left: 88px;
 top: 152px;
 }
 
