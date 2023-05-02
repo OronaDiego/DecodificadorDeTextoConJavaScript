@@ -214,15 +214,15 @@ gap: 32px;
 
 position: absolute;
 width: 559px;
-height: 431px;
+height: 218px;
 left: -84px;
 top: 649px;
 }
 .botonCopiar{
   width: 583px;
   height: 95px;
-  top: 1202px;
-  left: -64px;
+  top: 995px;
+  left: -52px;
 
 }
 section{
@@ -233,10 +233,10 @@ section{
 }
 
 footer{
-  position: fixed;
-  width: 100%;
-  top: 1359px;
+  position: absolute;
+  width: 734px;
+  top: 1132px;
   background-color: #9ac0eb4d;
-  left: -30px;
+  left: -118px;
 }
 }
