@@ -174,7 +174,7 @@ footer{
 
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
 
 html{
   position: relative;
@@ -182,25 +182,27 @@ width: 375px;
 height: 933px;
 }
 
-header{position: absolute;
-  width: 375px;
-  height: 96px;
-  left: 206px;
-  top: 32px;
+header{
+  position: absolute;
+  left: -106px;
+  padding: 16px;
 }
 main{
   height: 254px;
 }
 body{
-  left: 64px;
+  left: 110px;
 }
 
 .textArea{
   position: absolute;
-width: 343px;
-height: 210px;
-left: 88px;
-top: 152px;
+width: 420px;
+height: 120px;
+left: -9px;
+top: 130px;
+}
+.vectorInfo{
+  height: 1px;
 }
 
 .textArea-resultante{
@@ -211,28 +213,30 @@ padding: 32px;
 gap: 32px;
 
 position: absolute;
-width: 327px;
-height: 186px;
-left: 24px;
-top: 660px;
+width: 559px;
+height: 431px;
+left: -84px;
+top: 649px;
 }
 .botonCopiar{
-  width: 255px;
-  height: 67px;
-  top: 952px;
-  left: 95px;
+  width: 583px;
+  height: 95px;
+  top: 1202px;
+  left: -64px;
 
 }
 section{
-  display: table-column;
-  left: 52px;
+  /*display: table-column;*/
+  left: -113px;
   width: 434;
   top: 482px;
 }
 
 footer{
-  position: absolute;
-  width: 360px;
-  top: 1040px;
+  position: fixed;
+  width: 100%;
+  top: 1359px;
+  background-color: #9ac0eb4d;
+  left: -30px;
 }
 }
